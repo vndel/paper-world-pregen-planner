@@ -1,0 +1,14 @@
+world: survival
+area:
+  min-x: -5000
+  max-x: 5000
+  min-z: -5000
+  max-z: 5000
+workload:
+  chunks-per-second: 20
+  max-concurrent-chunk-tasks: 4
+  pause-mspt: 40.0
+  resume-mspt: 30.0
+  pause-on-low-disk-gib: 20
+schedule:
+  allowed-window-utc: '02:00-06:00'
